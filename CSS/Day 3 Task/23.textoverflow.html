@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text overflow</title>
+    <h1><center>23.How to use text-overflow Property</center></h1>
+    <style>
+      .p{
+        width: 50px;
+        border:1px solid black;
+      }
+      .q{
+        
+        width: 100px;
+        height:100px;
+        overflow:scroll;
+        border:2px solid black;
+      }
+      .r{
+        white-space:nowrap;
+        width: 100px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        border:1px solid black;
+      }
+      
+      div h{
+        font-size: 25px;
+      }
+    </style>
+</head>
+<body>
+    <div>
+        <hr>
+    <h>overflow not applied</h>
+   <h2 class="p">HariharanAdaikkalavan</h2>
+   <hr>
+   <h><b> overflow:scroll</b></h>
+   <h2 class="q">HariharanAdaikkalavan</h2>
+   <hr>
+   <h>text overflow ellipsis</h>
+   <h2 class="r">HariharanAdaikkalavan</h2>
+  <hr>
+</div>
+</body>
+</html>
