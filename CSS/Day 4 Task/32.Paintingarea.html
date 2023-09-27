@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting Area</title>
+    <h1><center>Painting area in background</center></h1>
+    <style>
+        #div1{
+            border:10px dotted black;
+            padding:15px;
+            background-clip: border-box;
+            border-radius: 10px;
+            background-image: radial-gradient(red,yellow);
+            cursor: grab;
+         }
+         #div2{
+            border:10px dotted red;
+            padding:20px;
+            background-clip:padding-box;
+            cursor:all-scroll;
+            background-image: linear-gradient(yellow,red);
+         }
+         #div3{
+            border:10px dotted blueviolet;
+            background-clip:content-box;
+            cursor:copy;
+            background-image: Linear-gradient(yellow,rgb(78, 4, 4));
+            padding:25px;
+         }
+         div h{
+            font-size:larger;
+            color: blue;
+         }
+        .p::selection{
+               color: azure;
+               background: red;
+         }
+    </style>
+</head>
+<body>
+    <div>
+    <h>background clip:border-box</h>
+    <div id="div1">
+        
+        <p>The background-clip property defines how far the background should extend within an element.</p>
+    </div><br><br>
+    <h> background-clip:padding-box</h>
+    <div id="div2">
+        <p>The background-clip property defines how far the background should extend within an element.</p>
+    </div><br><br>
+    <h>background-clip:content-box</h>
+    <div id="div3">
+        <p>The background-clip property defines how far the background should extend within an element.</p>
+    </div></div>
+</body>
+</html>

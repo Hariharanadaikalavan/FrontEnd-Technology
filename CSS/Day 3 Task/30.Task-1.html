@@ -9,14 +9,22 @@
 <style>
     .list{
         border:1px solid black;
-        width:300px;
+        width:302px;
         height:500px;
+        color:black;
+        position:absolute;
+        top:79px;
+        
+        left: 190px;
+        
          
     }
     button:hover{
         background-color: red;
-        font-size: x-large;
+        font-size: xx-large;
         cursor: grab;
+        width:85px;
+        height: 55px;
 
     }
     button:active{
@@ -26,6 +34,9 @@
     .button{
         background-color: yellow;
         font-weight: bolder;
+        font-size: x-large;
+        width:65px;
+        height: 35px;
     }
     .para::selection{
         background-color: red;
@@ -34,14 +45,25 @@
     .para{
         cursor:cell;
     }
+
+    img{
+        height: 500px;
+        width:302px;
+        text-wrap: nowrap;
+    }
+
+
 </style>
 
 <body>
     <center>
+        
+    
+        <img src="./hari.jpg" alt="hari">
     <div class="list">
       <h1><center>Todolist</center></h1><br><br>
       <p style="text-transform: capitalize;">Each day i will accomplish one thing on my todo list.</p>
-      <h2>Read a Book</h2><br>
+      <h2 style="text-align: left;">Read a Book</h2>
       <p class="para">I don't think that the human race will survive the next thousand years,unless we spread into space.There are too many accidents that can be befall life on a single planet.But I'm an optimist.....</p><br>
       <button class="button">Start</button><br><br>
       <a href="www.hari.org">Don't Skip Introduction</a>
