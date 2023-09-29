@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <h1><center>Set the background image as cover</center></h1>
+    <h1><center>36.Set the background image as cover</center></h1>
     <style>
         #div1{
-            border:4 solid black;
-            width:500px;
-            height:500px;
-            background-image: url(hari.jpg);
+            border:5px solid rgb(34, 158, 20);
+            height:300px;
+            width:300px;
+            background-image: url(https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
             background-repeat: no-repeat;
-            background-size:cover;
+            background-size:auto;
         }
        #div2{
-            border:4px solid black;
-            width:500px;
-            height:500px;
-            background-image: url(hari.jpg);
-            background-size:contain;
-            background-repeat: no-repeat;
+            border:4px solid rgb(206, 60, 60);
+            height:300px;
+            width:300px;
+            background-image: url(https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+            background-size: 150px 150px;
+            
+           
+        }
+        .div3{
+            border:5px solid rgb(159, 29, 29);
+            height:300px;
+            width:300px;
+            background-image: url(https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+            background-size: 10%;
+        
         }
     </style>
 </head>
 <body>
+    <p><b>background-size:auto(Border-height:300px width:300px)</b></p>
     <div id="div1">
-      <p>Hi</p>
-    </div><br><br>
+      </div><br><br>
+      <p>background-size 150px 150px (Border-height:300px width:300px) </p>
     <div id="div2">
-<p>hello</p>
+
     </div>
+    <p><b>background-size: 10% (Border-height:300px width:300px)</b></p>
+    <div class="div3"></div>
 </body>
 </html>
