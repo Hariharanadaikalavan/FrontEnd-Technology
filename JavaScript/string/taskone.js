@@ -1,2 +1,2 @@
-var name="chitra devi";
+var name="chitra devi"; // After space
 console.log(name.split(","));
