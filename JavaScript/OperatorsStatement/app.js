@@ -1,4 +1,4 @@
-var anchoviesPizzaScore = 0;
+var anchoviesPizzaScore = 0;  //Relationship operation 
 var  pepperoniPizzaScore = 4;
 var  hawaiianPizzaScore = 4;
 var  chickenBaconRanchPizzaScore = 6;
