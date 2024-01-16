@@ -4,7 +4,7 @@ function calAverage(firstNum,secondNum)
   return average;
 }
 const firstNum=4;
-const secondNum=2;
+const secondNum=2;  
 
 const result= calAverage(firstNum,secondNum);
 console.log(result);
