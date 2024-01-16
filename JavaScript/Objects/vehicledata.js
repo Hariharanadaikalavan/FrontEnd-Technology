@@ -5,5 +5,5 @@ var vehicle={
     length:"4686mm",
     cargo_capacity:"12.6 Cubic Feet",
 }
-
+  
 console.log(vehicle);
