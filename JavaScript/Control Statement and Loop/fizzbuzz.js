@@ -1,4 +1,4 @@
-var startingvalue=5;
+var startingvalue=5;  
 var valueupto=100;
 for(startingvalue;startingvalue<=valueupto;startingvalue++)
 {
